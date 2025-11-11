@@ -1,6 +1,16 @@
-function Home() {
+import Frase from './frase.js';
+import MostraImagem from './mostraImagem.js';
 
-    return <h1>Obrigado Deus e familia</h1>
+export default function Home() {
+
+    return (
+        <div style ={{ textAlign: 'center', marginTop: '40px'}}>
+            <Frase />
+            <MostraImagem />
+        </div>
+    );
+    
 }
 
-export default Home;
+ 
+
